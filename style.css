@@ -66,6 +66,10 @@
     left: 50px;
   }
   .footer{
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
     position: sticky;
     width: 100%;
     bottom: 0;
